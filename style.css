@@ -1,0 +1,18 @@
+/* 
+body{
+    background-color: blue;
+}
+
+@media only screen and (max-width:600px){
+    body{
+       background-color: aqua;  
+    } 
+} */
+.main{
+    display: flex;
+flex-direction: row;
+justify-content: space-around;}
+.one,.two,.three{
+    border: 2px solid aqua;
+    width: 250px;
+} 
